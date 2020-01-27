@@ -1,0 +1,281 @@
+ram.o: ram.c /usr/local/mingw32/include/SDL/SDL.h \
+  /usr/local/mingw32/include/SDL/SDL_main.h \
+  /usr/local/mingw32/include/SDL/SDL_types.h \
+  /usr/local/mingw32/include/SDL/begin_code.h \
+  /usr/local/mingw32/include/SDL/close_code.h \
+  /usr/local/mingw32/include/SDL/SDL_getenv.h \
+  /usr/local/mingw32/include/SDL/SDL_error.h \
+  /usr/local/mingw32/include/SDL/SDL_rwops.h \
+  /usr/local/mingw32/include/SDL/SDL_timer.h \
+  /usr/local/mingw32/include/SDL/SDL_audio.h \
+  /usr/local/mingw32/include/SDL/SDL_byteorder.h \
+  /usr/local/mingw32/include/SDL/SDL_cdrom.h \
+  /usr/local/mingw32/include/SDL/SDL_joystick.h \
+  /usr/local/mingw32/include/SDL/SDL_events.h \
+  /usr/local/mingw32/include/SDL/SDL_active.h \
+  /usr/local/mingw32/include/SDL/SDL_keyboard.h \
+  /usr/local/mingw32/include/SDL/SDL_keysym.h \
+  /usr/local/mingw32/include/SDL/SDL_mouse.h \
+  /usr/local/mingw32/include/SDL/SDL_video.h \
+  /usr/local/mingw32/include/SDL/SDL_mutex.h \
+  /usr/local/mingw32/include/SDL/SDL_quit.h \
+  /usr/local/mingw32/include/SDL/SDL_version.h define.h gp2x.h
+util_snd.o: util_snd.c /usr/local/mingw32/include/SDL/SDL.h \
+  /usr/local/mingw32/include/SDL/SDL_main.h \
+  /usr/local/mingw32/include/SDL/SDL_types.h \
+  /usr/local/mingw32/include/SDL/begin_code.h \
+  /usr/local/mingw32/include/SDL/close_code.h \
+  /usr/local/mingw32/include/SDL/SDL_getenv.h \
+  /usr/local/mingw32/include/SDL/SDL_error.h \
+  /usr/local/mingw32/include/SDL/SDL_rwops.h \
+  /usr/local/mingw32/include/SDL/SDL_timer.h \
+  /usr/local/mingw32/include/SDL/SDL_audio.h \
+  /usr/local/mingw32/include/SDL/SDL_byteorder.h \
+  /usr/local/mingw32/include/SDL/SDL_cdrom.h \
+  /usr/local/mingw32/include/SDL/SDL_joystick.h \
+  /usr/local/mingw32/include/SDL/SDL_events.h \
+  /usr/local/mingw32/include/SDL/SDL_active.h \
+  /usr/local/mingw32/include/SDL/SDL_keyboard.h \
+  /usr/local/mingw32/include/SDL/SDL_keysym.h \
+  /usr/local/mingw32/include/SDL/SDL_mouse.h \
+  /usr/local/mingw32/include/SDL/SDL_video.h \
+  /usr/local/mingw32/include/SDL/SDL_mutex.h \
+  /usr/local/mingw32/include/SDL/SDL_quit.h \
+  /usr/local/mingw32/include/SDL/SDL_version.h \
+  /usr/local/mingw32/include/SDL/SDL_mixer.h include/general.h \
+  include/util_snd.h define.h gp2x.h
+function.o: function.c /usr/local/mingw32/include/SDL/SDL.h \
+  /usr/local/mingw32/include/SDL/SDL_main.h \
+  /usr/local/mingw32/include/SDL/SDL_types.h \
+  /usr/local/mingw32/include/SDL/begin_code.h \
+  /usr/local/mingw32/include/SDL/close_code.h \
+  /usr/local/mingw32/include/SDL/SDL_getenv.h \
+  /usr/local/mingw32/include/SDL/SDL_error.h \
+  /usr/local/mingw32/include/SDL/SDL_rwops.h \
+  /usr/local/mingw32/include/SDL/SDL_timer.h \
+  /usr/local/mingw32/include/SDL/SDL_audio.h \
+  /usr/local/mingw32/include/SDL/SDL_byteorder.h \
+  /usr/local/mingw32/include/SDL/SDL_cdrom.h \
+  /usr/local/mingw32/include/SDL/SDL_joystick.h \
+  /usr/local/mingw32/include/SDL/SDL_events.h \
+  /usr/local/mingw32/include/SDL/SDL_active.h \
+  /usr/local/mingw32/include/SDL/SDL_keyboard.h \
+  /usr/local/mingw32/include/SDL/SDL_keysym.h \
+  /usr/local/mingw32/include/SDL/SDL_mouse.h \
+  /usr/local/mingw32/include/SDL/SDL_video.h \
+  /usr/local/mingw32/include/SDL/SDL_mutex.h \
+  /usr/local/mingw32/include/SDL/SDL_quit.h \
+  /usr/local/mingw32/include/SDL/SDL_version.h \
+  /usr/local/mingw32/include/SDL/SDL_mixer.h define.h gp2x.h function.h \
+  include/general.h extern.h util_snd.h include/dconv.h include/general.h \
+  /usr/local/mingw32/include/SDL/SDL_rotozoom.h \
+  /usr/local/mingw32/include/SDL/SDL.h
+dconv.o: dconv.c include/general.h include/dconv.h include/general.h
+scene.o: scene.c /usr/local/mingw32/include/SDL/SDL.h \
+  /usr/local/mingw32/include/SDL/SDL_main.h \
+  /usr/local/mingw32/include/SDL/SDL_types.h \
+  /usr/local/mingw32/include/SDL/begin_code.h \
+  /usr/local/mingw32/include/SDL/close_code.h \
+  /usr/local/mingw32/include/SDL/SDL_getenv.h \
+  /usr/local/mingw32/include/SDL/SDL_error.h \
+  /usr/local/mingw32/include/SDL/SDL_rwops.h \
+  /usr/local/mingw32/include/SDL/SDL_timer.h \
+  /usr/local/mingw32/include/SDL/SDL_audio.h \
+  /usr/local/mingw32/include/SDL/SDL_byteorder.h \
+  /usr/local/mingw32/include/SDL/SDL_cdrom.h \
+  /usr/local/mingw32/include/SDL/SDL_joystick.h \
+  /usr/local/mingw32/include/SDL/SDL_events.h \
+  /usr/local/mingw32/include/SDL/SDL_active.h \
+  /usr/local/mingw32/include/SDL/SDL_keyboard.h \
+  /usr/local/mingw32/include/SDL/SDL_keysym.h \
+  /usr/local/mingw32/include/SDL/SDL_mouse.h \
+  /usr/local/mingw32/include/SDL/SDL_video.h \
+  /usr/local/mingw32/include/SDL/SDL_mutex.h \
+  /usr/local/mingw32/include/SDL/SDL_quit.h \
+  /usr/local/mingw32/include/SDL/SDL_version.h define.h gp2x.h extern.h \
+  scene.h title.h act.h option.h ending.h logo.h stageselect.h demo.h
+title.o: title.c /usr/local/mingw32/include/SDL/SDL.h \
+  /usr/local/mingw32/include/SDL/SDL_main.h \
+  /usr/local/mingw32/include/SDL/SDL_types.h \
+  /usr/local/mingw32/include/SDL/begin_code.h \
+  /usr/local/mingw32/include/SDL/close_code.h \
+  /usr/local/mingw32/include/SDL/SDL_getenv.h \
+  /usr/local/mingw32/include/SDL/SDL_error.h \
+  /usr/local/mingw32/include/SDL/SDL_rwops.h \
+  /usr/local/mingw32/include/SDL/SDL_timer.h \
+  /usr/local/mingw32/include/SDL/SDL_audio.h \
+  /usr/local/mingw32/include/SDL/SDL_byteorder.h \
+  /usr/local/mingw32/include/SDL/SDL_cdrom.h \
+  /usr/local/mingw32/include/SDL/SDL_joystick.h \
+  /usr/local/mingw32/include/SDL/SDL_events.h \
+  /usr/local/mingw32/include/SDL/SDL_active.h \
+  /usr/local/mingw32/include/SDL/SDL_keyboard.h \
+  /usr/local/mingw32/include/SDL/SDL_keysym.h \
+  /usr/local/mingw32/include/SDL/SDL_mouse.h \
+  /usr/local/mingw32/include/SDL/SDL_video.h \
+  /usr/local/mingw32/include/SDL/SDL_mutex.h \
+  /usr/local/mingw32/include/SDL/SDL_quit.h \
+  /usr/local/mingw32/include/SDL/SDL_version.h define.h gp2x.h function.h \
+  include/general.h util_snd.h extern.h title.h
+init.o: init.c /usr/local/mingw32/include/SDL/SDL.h \
+  /usr/local/mingw32/include/SDL/SDL_main.h \
+  /usr/local/mingw32/include/SDL/SDL_types.h \
+  /usr/local/mingw32/include/SDL/begin_code.h \
+  /usr/local/mingw32/include/SDL/close_code.h \
+  /usr/local/mingw32/include/SDL/SDL_getenv.h \
+  /usr/local/mingw32/include/SDL/SDL_error.h \
+  /usr/local/mingw32/include/SDL/SDL_rwops.h \
+  /usr/local/mingw32/include/SDL/SDL_timer.h \
+  /usr/local/mingw32/include/SDL/SDL_audio.h \
+  /usr/local/mingw32/include/SDL/SDL_byteorder.h \
+  /usr/local/mingw32/include/SDL/SDL_cdrom.h \
+  /usr/local/mingw32/include/SDL/SDL_joystick.h \
+  /usr/local/mingw32/include/SDL/SDL_events.h \
+  /usr/local/mingw32/include/SDL/SDL_active.h \
+  /usr/local/mingw32/include/SDL/SDL_keyboard.h \
+  /usr/local/mingw32/include/SDL/SDL_keysym.h \
+  /usr/local/mingw32/include/SDL/SDL_mouse.h \
+  /usr/local/mingw32/include/SDL/SDL_video.h \
+  /usr/local/mingw32/include/SDL/SDL_mutex.h \
+  /usr/local/mingw32/include/SDL/SDL_quit.h \
+  /usr/local/mingw32/include/SDL/SDL_version.h define.h gp2x.h extern.h \
+  function.h include/general.h util_snd.h scene.h
+act.o: act.c /usr/local/mingw32/include/SDL/SDL.h \
+  /usr/local/mingw32/include/SDL/SDL_main.h \
+  /usr/local/mingw32/include/SDL/SDL_types.h \
+  /usr/local/mingw32/include/SDL/begin_code.h \
+  /usr/local/mingw32/include/SDL/close_code.h \
+  /usr/local/mingw32/include/SDL/SDL_getenv.h \
+  /usr/local/mingw32/include/SDL/SDL_error.h \
+  /usr/local/mingw32/include/SDL/SDL_rwops.h \
+  /usr/local/mingw32/include/SDL/SDL_timer.h \
+  /usr/local/mingw32/include/SDL/SDL_audio.h \
+  /usr/local/mingw32/include/SDL/SDL_byteorder.h \
+  /usr/local/mingw32/include/SDL/SDL_cdrom.h \
+  /usr/local/mingw32/include/SDL/SDL_joystick.h \
+  /usr/local/mingw32/include/SDL/SDL_events.h \
+  /usr/local/mingw32/include/SDL/SDL_active.h \
+  /usr/local/mingw32/include/SDL/SDL_keyboard.h \
+  /usr/local/mingw32/include/SDL/SDL_keysym.h \
+  /usr/local/mingw32/include/SDL/SDL_mouse.h \
+  /usr/local/mingw32/include/SDL/SDL_video.h \
+  /usr/local/mingw32/include/SDL/SDL_mutex.h \
+  /usr/local/mingw32/include/SDL/SDL_quit.h \
+  /usr/local/mingw32/include/SDL/SDL_version.h define.h gp2x.h function.h \
+  include/general.h util_snd.h extern.h act.h include/dconv.h \
+  include/general.h
+option.o: option.c /usr/local/mingw32/include/SDL/SDL.h \
+  /usr/local/mingw32/include/SDL/SDL_main.h \
+  /usr/local/mingw32/include/SDL/SDL_types.h \
+  /usr/local/mingw32/include/SDL/begin_code.h \
+  /usr/local/mingw32/include/SDL/close_code.h \
+  /usr/local/mingw32/include/SDL/SDL_getenv.h \
+  /usr/local/mingw32/include/SDL/SDL_error.h \
+  /usr/local/mingw32/include/SDL/SDL_rwops.h \
+  /usr/local/mingw32/include/SDL/SDL_timer.h \
+  /usr/local/mingw32/include/SDL/SDL_audio.h \
+  /usr/local/mingw32/include/SDL/SDL_byteorder.h \
+  /usr/local/mingw32/include/SDL/SDL_cdrom.h \
+  /usr/local/mingw32/include/SDL/SDL_joystick.h \
+  /usr/local/mingw32/include/SDL/SDL_events.h \
+  /usr/local/mingw32/include/SDL/SDL_active.h \
+  /usr/local/mingw32/include/SDL/SDL_keyboard.h \
+  /usr/local/mingw32/include/SDL/SDL_keysym.h \
+  /usr/local/mingw32/include/SDL/SDL_mouse.h \
+  /usr/local/mingw32/include/SDL/SDL_video.h \
+  /usr/local/mingw32/include/SDL/SDL_mutex.h \
+  /usr/local/mingw32/include/SDL/SDL_quit.h \
+  /usr/local/mingw32/include/SDL/SDL_version.h define.h gp2x.h function.h \
+  include/general.h util_snd.h extern.h option.h
+ending.o: ending.c /usr/local/mingw32/include/SDL/SDL.h \
+  /usr/local/mingw32/include/SDL/SDL_main.h \
+  /usr/local/mingw32/include/SDL/SDL_types.h \
+  /usr/local/mingw32/include/SDL/begin_code.h \
+  /usr/local/mingw32/include/SDL/close_code.h \
+  /usr/local/mingw32/include/SDL/SDL_getenv.h \
+  /usr/local/mingw32/include/SDL/SDL_error.h \
+  /usr/local/mingw32/include/SDL/SDL_rwops.h \
+  /usr/local/mingw32/include/SDL/SDL_timer.h \
+  /usr/local/mingw32/include/SDL/SDL_audio.h \
+  /usr/local/mingw32/include/SDL/SDL_byteorder.h \
+  /usr/local/mingw32/include/SDL/SDL_cdrom.h \
+  /usr/local/mingw32/include/SDL/SDL_joystick.h \
+  /usr/local/mingw32/include/SDL/SDL_events.h \
+  /usr/local/mingw32/include/SDL/SDL_active.h \
+  /usr/local/mingw32/include/SDL/SDL_keyboard.h \
+  /usr/local/mingw32/include/SDL/SDL_keysym.h \
+  /usr/local/mingw32/include/SDL/SDL_mouse.h \
+  /usr/local/mingw32/include/SDL/SDL_video.h \
+  /usr/local/mingw32/include/SDL/SDL_mutex.h \
+  /usr/local/mingw32/include/SDL/SDL_quit.h \
+  /usr/local/mingw32/include/SDL/SDL_version.h define.h gp2x.h function.h \
+  include/general.h util_snd.h extern.h ending.h
+logo.o: logo.c /usr/local/mingw32/include/SDL/SDL.h \
+  /usr/local/mingw32/include/SDL/SDL_main.h \
+  /usr/local/mingw32/include/SDL/SDL_types.h \
+  /usr/local/mingw32/include/SDL/begin_code.h \
+  /usr/local/mingw32/include/SDL/close_code.h \
+  /usr/local/mingw32/include/SDL/SDL_getenv.h \
+  /usr/local/mingw32/include/SDL/SDL_error.h \
+  /usr/local/mingw32/include/SDL/SDL_rwops.h \
+  /usr/local/mingw32/include/SDL/SDL_timer.h \
+  /usr/local/mingw32/include/SDL/SDL_audio.h \
+  /usr/local/mingw32/include/SDL/SDL_byteorder.h \
+  /usr/local/mingw32/include/SDL/SDL_cdrom.h \
+  /usr/local/mingw32/include/SDL/SDL_joystick.h \
+  /usr/local/mingw32/include/SDL/SDL_events.h \
+  /usr/local/mingw32/include/SDL/SDL_active.h \
+  /usr/local/mingw32/include/SDL/SDL_keyboard.h \
+  /usr/local/mingw32/include/SDL/SDL_keysym.h \
+  /usr/local/mingw32/include/SDL/SDL_mouse.h \
+  /usr/local/mingw32/include/SDL/SDL_video.h \
+  /usr/local/mingw32/include/SDL/SDL_mutex.h \
+  /usr/local/mingw32/include/SDL/SDL_quit.h \
+  /usr/local/mingw32/include/SDL/SDL_version.h define.h gp2x.h function.h \
+  include/general.h util_snd.h extern.h logo.h
+stageselect.o: stageselect.c /usr/local/mingw32/include/SDL/SDL.h \
+  /usr/local/mingw32/include/SDL/SDL_main.h \
+  /usr/local/mingw32/include/SDL/SDL_types.h \
+  /usr/local/mingw32/include/SDL/begin_code.h \
+  /usr/local/mingw32/include/SDL/close_code.h \
+  /usr/local/mingw32/include/SDL/SDL_getenv.h \
+  /usr/local/mingw32/include/SDL/SDL_error.h \
+  /usr/local/mingw32/include/SDL/SDL_rwops.h \
+  /usr/local/mingw32/include/SDL/SDL_timer.h \
+  /usr/local/mingw32/include/SDL/SDL_audio.h \
+  /usr/local/mingw32/include/SDL/SDL_byteorder.h \
+  /usr/local/mingw32/include/SDL/SDL_cdrom.h \
+  /usr/local/mingw32/include/SDL/SDL_joystick.h \
+  /usr/local/mingw32/include/SDL/SDL_events.h \
+  /usr/local/mingw32/include/SDL/SDL_active.h \
+  /usr/local/mingw32/include/SDL/SDL_keyboard.h \
+  /usr/local/mingw32/include/SDL/SDL_keysym.h \
+  /usr/local/mingw32/include/SDL/SDL_mouse.h \
+  /usr/local/mingw32/include/SDL/SDL_video.h \
+  /usr/local/mingw32/include/SDL/SDL_mutex.h \
+  /usr/local/mingw32/include/SDL/SDL_quit.h \
+  /usr/local/mingw32/include/SDL/SDL_version.h define.h gp2x.h function.h \
+  include/general.h util_snd.h extern.h stageselect.h
+demo.o: demo.c /usr/local/mingw32/include/SDL/SDL.h \
+  /usr/local/mingw32/include/SDL/SDL_main.h \
+  /usr/local/mingw32/include/SDL/SDL_types.h \
+  /usr/local/mingw32/include/SDL/begin_code.h \
+  /usr/local/mingw32/include/SDL/close_code.h \
+  /usr/local/mingw32/include/SDL/SDL_getenv.h \
+  /usr/local/mingw32/include/SDL/SDL_error.h \
+  /usr/local/mingw32/include/SDL/SDL_rwops.h \
+  /usr/local/mingw32/include/SDL/SDL_timer.h \
+  /usr/local/mingw32/include/SDL/SDL_audio.h \
+  /usr/local/mingw32/include/SDL/SDL_byteorder.h \
+  /usr/local/mingw32/include/SDL/SDL_cdrom.h \
+  /usr/local/mingw32/include/SDL/SDL_joystick.h \
+  /usr/local/mingw32/include/SDL/SDL_events.h \
+  /usr/local/mingw32/include/SDL/SDL_active.h \
+  /usr/local/mingw32/include/SDL/SDL_keyboard.h \
+  /usr/local/mingw32/include/SDL/SDL_keysym.h \
+  /usr/local/mingw32/include/SDL/SDL_mouse.h \
+  /usr/local/mingw32/include/SDL/SDL_video.h \
+  /usr/local/mingw32/include/SDL/SDL_mutex.h \
+  /usr/local/mingw32/include/SDL/SDL_quit.h \
+  /usr/local/mingw32/include/SDL/SDL_version.h define.h gp2x.h function.h \
+  include/general.h util_snd.h extern.h demo.h
